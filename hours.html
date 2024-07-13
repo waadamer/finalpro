@@ -2,43 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="index.css" />
     <meta name="discription" content="Stors Hours for The Little Taco shop">
     <title>LTS Hours</title>
     <link rel="icon" href="favicon.jpg" type="image/x-icon">
      <style>    
-body {
+/*body {
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
-}
+}*/
 
       
     </style>
 </head>
 
-<body>
-  <header>
-    <h1>Little Taco Shop Hours</h1>
-    <nav>
+<body >
+  
+  <header class="sticky"> 
+    <img
+    src="/img/tacooo.jpg"
+    alt=""
+    height="50px"
+    width="50px"
+    
+  />
+    <input type="checkbox" id="active" />
+    <label for="active" class="menu"> <span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <nav>
         <ul>
-          <li><a href="/">Home</a> </li>
-          <li> <a href="/#about">About</a></li>
-          <li> <a href="/#menu">Our Menu </a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About </a></li>
+          <li><a href="menu.html"> Menu </a></li>
+          <li><a href="hours.html"> Hours</a></li>
+          <li><a href="contact.html">Contact </a></li>
         </ul>
       </nav>
-      <figure>
-        <img src="img/tacos_tray_400x267.png"  height="220">
-        <figcaption>A Tray of Tasty Tacos</figcaption>
-      </figure>
-      </header>
-       <hr>
+    </div>
+   </header>
     <main>
-      <p>
-        We are open 7 days a week! <br></p>
+      <img src="/img/tacos_tray_400x267.png"   height="550px"
+      width="40%"
+      style="float: left;margin-left: 10%; border: 1px; "
+   >
+   
+   <h1  style=" font-size: 60px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+     sans-serif;
+   text-shadow: 10px 10px rgb(237, 183, 128);
+   float: right;
+   margin-right: 20%;">Opening Hours </h1>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="float: left; margin-left: 10%; font-size: larger;  font-family:cursive;">
+      <p >We are open 7 days a week! <br></p>
         <dl><dt>Sunday-Thursday
           <dd>11am-9pm</dd>
         </dt>
@@ -46,14 +67,16 @@ body {
           <dd>11am-11pm</dd>
         </dt>
       </dl>
-
-      <a href="#">Back to Top</a>
-    </main>
-    <br><hr>
-    <footer>
-      Copyright© The Little Tacos Shop
-    </footer>
+</div>
     
+    </main>
+
+
+
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer style="text-align: center;">Copyright© The Little Tacos Shop</footer>
+
  
 
 </body>
